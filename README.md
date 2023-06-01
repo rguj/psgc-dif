@@ -1,14 +1,14 @@
-
-
 The data of the Philippine Standard Geographic Code (PSGC) in the form of various data interchange formats, which are mainly comprised of these heirarchy levels: Region, Province, District, City/Mun/SubMun/SGU, and Barangay.
 
+## Exported Files
 
+| File Type |
+| --------- |
+| csv       |
+| json      |
+| sql       |
 
-**Definition**
-
----
-
-
+## Definition
 
 | Term   | Meaning                                       |
 | ------ | --------------------------------------------- |
@@ -16,13 +16,7 @@ The data of the Philippine Standard Geographic Code (PSGC) in the form of variou
 | SGU    | Special Government Unit or Municipal District |
 | SubMun | Sub-Municipality                              |
 
-
-
-**Modified original columns**
-
----
-
-
+## Modified original columns
 
 | Original Header       | Exported Data Key     |
 | --------------------- | --------------------- |
@@ -38,13 +32,7 @@ The data of the Philippine Standard Geographic Code (PSGC) in the form of variou
 | 2020 Population       | popu_2020             |
 | Status                | status                |
 
-
-
-**Added columns**
-
----
-
-
+## Added columns
 
 | Exported Data Key     | Definition                   |
 | --------------------- | ---------------------------- |
@@ -70,14 +58,6 @@ The data of the Philippine Standard Geographic Code (PSGC) in the form of variou
 | parent_cmss           | Who is the parent CMSS?      |
 | parent_bgy            | Who is the parent Barangay?  |
 
-
-
-**Reference**
-
----
-
-
+## Reference
 
 - [1] Philippine Standard Geographic Code (PSGC) | Philippine Statistics Authority [Philippine Standard Geographic Code (PSGC) | Philippine Statistics Authority](https://psa.gov.ph/classification/psgc/)
-
-
